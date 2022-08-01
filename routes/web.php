@@ -26,6 +26,11 @@ Route::get('/component-test', function () {
     }
 );
 
+Route::get('/typescript-test', function () {
+    return Inertia::render('TypeScriptTest');
+    }
+);
+
 
 Route::get('/inertia/index', [InertiaTestController::class, 'index'])->name('inertia.index');
 Route::get('/inertia/create', [InertiaTestController::class, 'create'])->name('inertia.create');

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "jsx" : "preserve",
+        "strict": true,
+        "sourceMap" : true, 
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["resources/js/*"]
+        }
+    },
+    "exclude": ["node_modules", "public"]
+}
