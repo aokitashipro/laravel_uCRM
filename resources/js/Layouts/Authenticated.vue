@@ -33,6 +33,9 @@ const showingNavigationDropdown = ref(false);
                                 <BreezeNavLink :href="route('items.index')" :active="route().current('items.index')">
                                     商品管理
                                 </BreezeNavLink>
+                                <BreezeNavLink :href="route('customers.index')" :active="route().current('customers.index')">
+                                    顧客管理
+                                </BreezeNavLink>
                             </div>
                         </div>
 
@@ -81,6 +84,9 @@ const showingNavigationDropdown = ref(false);
                         </BreezeResponsiveNavLink>
                         <BreezeResponsiveNavLink :href="route('items.index')" :active="route().current('items.index')">
                             商品管理
+                        </BreezeResponsiveNavLink>
+                        <BreezeResponsiveNavLink :href="route('customers.index')" :active="route().current('customer.index')">
+                            顧客管理
                         </BreezeResponsiveNavLink>
                     </div>
 
