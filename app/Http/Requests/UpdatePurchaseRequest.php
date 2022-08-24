@@ -13,7 +13,7 @@ class UpdatePurchaseRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**

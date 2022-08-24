@@ -20,6 +20,7 @@
         "vue": "^3.2.31"
     },
     "dependencies": {
+        "dayjs": "^1.11.5",
         "micromodal": "^0.4.10",
         "yubinbango-core2": "^0.6.3"
     }
