@@ -1,5 +1,5 @@
 udemy向け簡易的なCRM(顧客管理システム)のコードになります。<br>
-
+関連記事: https://coinbaby8.com/vuejs3-laravel-crm.html <br> 
 
 ## インストール
 composer install<br>
